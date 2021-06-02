@@ -14,7 +14,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
-impor os
+import os
 print(os.listdir(os.getcwd()))
 print(os.path.exists("save_model/efficientnet_No20/saved_model.pb"))
 
