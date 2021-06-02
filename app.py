@@ -14,7 +14,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
-model = load_model("./data/efficientnet_No20_saved_model.pb")
+model = load_model("./data/saved_model.pb")
 #model = load_model('ResNet_32.h5')
 
 import pandas as pd
