@@ -15,8 +15,8 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
 import os
-print(os.listdir(os.getcwd()))
-print(os.path.exists("save_model/efficientnet_No20/saved_model.pb"))
+#print(os.listdir(os.getcwd()))
+#print(os.path.exists("save_model/efficientnet_No20/saved_model.pb"))
 
 #model = load_model("save_model/efficientnet_No20")
 model = load_model('save_model/resnet_No20')
