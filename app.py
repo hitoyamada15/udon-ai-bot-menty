@@ -17,10 +17,10 @@ from tensorflow.keras.preprocessing import image
 import os
 #print(os.listdir(os.getcwd()))
 #print(os.path.exists("save_model/efficientnet_No20/saved_model.pb"))
-
+print("import OK")
 #model = load_model("save_model/efficientnet_No20")
 model = load_model('save_model/resnet_No20')
-
+print("load_model")
 import pandas as pd
 import os
 
