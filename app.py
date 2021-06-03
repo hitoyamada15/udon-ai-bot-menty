@@ -19,7 +19,7 @@ print(os.listdir(os.getcwd()))
 print(os.path.exists("save_model/efficientnet_No20/saved_model.pb"))
 
 #model = load_model("save_model/efficientnet_No20")
-model = load_model('save_model/ResNet_32')
+#model = load_model('save_model/ResNet_32')
 
 import pandas as pd
 import os
