@@ -18,7 +18,7 @@ import os
 #print(os.listdir(os.getcwd()))
 #print(os.path.exists("save_model/efficientnet_No20/saved_model.pb"))
 print("import OK")
-model = load_model("save_model/resnet_No20_6")
+model = load_model("save_model/yamada_udon_ai_1102")
 #model = load_model('save_model/yamada_udon_ai_1102')
 print("load_model")
 import pandas as pd
