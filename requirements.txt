@@ -33,7 +33,7 @@ tensorboard==2.3.0
 tensorflow-cpu==2.3.1
 tensorflow-estimator==2.3.0
 termcolor==1.1.0
-Theano==1.0.4
+# Theano==1.0.4
 urllib3==1.25.9
 Werkzeug==1.0.1
 wrapt==1.12.1
