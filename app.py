@@ -17,7 +17,7 @@ from tensorflow.keras.preprocessing import image
 import os
 #print(os.listdir(os.getcwd()))
 #print(os.path.exists("save_model/efficientnet_No20/saved_model.pb"))
-model_path = "save_model/resnet_No20_1"
+model_path = "save_model/VGG16_20_1"
 print("load model =",model_path)
 model = load_model(model_path)
 #model = load_model('save_model/yamada_udon_ai_1102')
@@ -64,7 +64,7 @@ def handle_image_message(event):
 
         test_url = "./data/"+event.message.id+".jpg"
 
-        img = image.load_img(test_url, target_size=(150, 150)) # read image as PIL data
+        img = image.load_img(test_url, target_size=(160, 160)) # read image as PIL data
         #img = image.load_img(test_url, target_size=(260, 260)) # read image as PIL data
         x = image.img_to_array(img) # convert PIL data to Numpy Array
         x = np.expand_dims(x, axis=0)
